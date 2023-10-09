@@ -18,7 +18,9 @@ These are just a few that I noticed I needed to make sure I imported or installe
 
 
 If you are using a Raspberry Pi Zero W, you will need to enable the I2C and SPI interfaces before running the script. You can do this by running the following commands:
+
 sudo raspi-config nonint do_i2c 0
+
 sudo raspi-config nonint do_spi 0
 
 
@@ -29,5 +31,7 @@ To run the Adafruit Pi Installer Script, simply open a terminal window and navig
 
 
 sudo pip install --upgrade adafruit-python-shell
+
 wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+
 sudo python raspi-blinka.py
