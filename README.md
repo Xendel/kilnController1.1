@@ -5,6 +5,8 @@ Kiln Controller with MAX31856 included
 
 This project is a work in progress. I am still facing issues with Temp readings and troubleshooting.
 
+Board is a Raspberry PI Zero w V1.1 connected to an adafruit MAX31856
+
 #####################################
 
 
