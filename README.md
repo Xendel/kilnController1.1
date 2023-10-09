@@ -3,7 +3,7 @@ Kiln Controller with MAX31856 included
 
 #####################################
 
-This project is a work in progress. 
+This project is a work in progress. I am still facing issues with Temp readings and troubleshooting.
 
 #####################################
 
