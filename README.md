@@ -31,6 +31,16 @@ The Adafruit Pi Installer Script is a script that can be used to install Circuit
 
 To run the Adafruit Pi Installer Script, simply open a terminal window and navigate to the directory where the script is located. Then, run the following command:
 
+Pin mapping:
+
+ - Ras pi------MAX31856
+ - 17/3.3v-----3Vo
+ - 19/MOSI---SDI
+ - 21/MISO---SDO
+ - 23/SCLK----SCK
+ - 25/GND----GND
+ - 29/GPIO5--CS
+
 
 sudo pip install --upgrade adafruit-python-shell
 
