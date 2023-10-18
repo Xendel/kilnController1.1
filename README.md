@@ -7,6 +7,16 @@ This project is a work in progress. I am still facing issues with Temp readings 
 
 Board is a Raspberry PI Zero w V1.1 connected to an adafruit MAX31856
 
+Pin mapping:
+
+ - Ras pi------MAX31856
+ - 17/3.3v-----3Vo
+ - 19/MOSI---SDI
+ - 21/MISO---SDO
+ - 23/SCLK----SCK
+ - 25/GND----GND
+ - 29/GPIO5--CS
+
 #####################################
 
 
@@ -36,14 +46,3 @@ sudo pip install --upgrade adafruit-python-shell
 wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
 
 sudo python raspi-blinka.py
-
-
-Pin mapping:
-
- - Ras pi------MAX31856
- - 17/3.3v-----3Vo
- - 19/MOSI---SDI
- - 21/MISO---SDO
- - 23/SCLK----SCK
- - 25/GND----GND
- - 29/GPIO5--CS
