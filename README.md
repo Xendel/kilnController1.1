@@ -31,6 +31,13 @@ The Adafruit Pi Installer Script is a script that can be used to install Circuit
 
 To run the Adafruit Pi Installer Script, simply open a terminal window and navigate to the directory where the script is located. Then, run the following command:
 
+sudo pip install --upgrade adafruit-python-shell
+
+wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+
+sudo python raspi-blinka.py
+
+
 Pin mapping:
 
  - Ras pi------MAX31856
@@ -40,10 +47,3 @@ Pin mapping:
  - 23/SCLK----SCK
  - 25/GND----GND
  - 29/GPIO5--CS
-
-
-sudo pip install --upgrade adafruit-python-shell
-
-wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
-
-sudo python raspi-blinka.py
