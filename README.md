@@ -1,26 +1,18 @@
-# kilnController1.1
+# kiln - Controller1.1
 Kiln Controller with MAX31856 included
+Includes 4 digit 7 segment display
 
 #####################################
 
 This project is a work in progress. I am still facing issues with Temp readings and troubleshooting.
 
-Board is a Raspberry PI Zero w V1.1 connected to an adafruit MAX31856
+Board is a Raspberry PI Zero w V1.1 connected to an adafruit MAX31855
 
-Pin mapping:
-
- - Ras pi------MAX31856
- - 17/3.3v-----3Vo
- - 19/MOSI---SDI
- - 21/MISO---SDO
- - 23/SCLK----SCK
- - 25/GND----GND
- - 29/GPIO5--CS
 
 #####################################
 
 
-This is a kilncontroller copy of https://github.com/botheredbybees/kilnController/tree/master see project build here https://www.instructables.com/Build-a-Web-Enabled-High-Temperature-Kiln-Controll/ and includes https://github.com/adafruit/Adafruit_CircuitPython_MAX31856
+This is a kilncontroller copy of (https://github.com/jbruce12000/kiln-controller) see reference project build here https://www.instructables.com/Build-a-Web-Enabled-High-Temperature-Kiln-Controll/
 
 
 Many of these dependancies are listed in the other git projects.
